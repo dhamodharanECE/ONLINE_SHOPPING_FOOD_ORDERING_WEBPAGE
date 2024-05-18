@@ -1,0 +1,60 @@
+.header{
+    position: relative;
+    height: 55vw;
+    margin: 30px auto;
+    background: url('/front.png') no-repeat;
+    background-size: contain;
+
+}
+.header-contents{
+    position: absolute;
+    display:flex; 
+    flex-direction: column;
+    align-items:start;
+    gap: 1.5em;
+    max-width: 50%;
+    bottom: 10%;
+    left:6dvw;
+}
+.header-contents h2{
+    font-size: 2vmax;
+    color:white;
+    font-size: max(4.5mv,22px);
+}
+.header-contents p{
+    font-size: 2vmax;
+    color:white;
+    font-size: 2vmax;
+}
+.header-contents button{
+    color: black;
+    font-weight: 200;
+    background-color: red;
+    padding: 0.6dvw 1dvw;
+    border-radius: 30px;
+    cursor: pointer;
+    color:black;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    
+}
+
+@media (max-width:1050px) {
+    .header-contents{
+        max-width:45%; ;
+    } 
+}
+@media (max-width:750px) {
+    .header-contents{
+        max-width:65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+    
+}
