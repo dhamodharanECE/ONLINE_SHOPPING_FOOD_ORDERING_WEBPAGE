@@ -1,0 +1,19 @@
+.app-download{
+    margin-top: 5%;
+    color: black;
+    text-align: center;
+    font-size:50px;
+    font:bold;
+    cursor: pointer;
+    
+}
+.app-download-playstore{
+    width: max(30vm,120px);
+    justify-items: center;
+    transition: 0.5s;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.app-download-playstore img{
+    transform: scale(1.05);
+}
